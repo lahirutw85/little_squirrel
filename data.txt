@@ -1,0 +1,18 @@
+1600 Amphitheatre Parkway, CA 94043
+
+vctung@outlook.com
+
+** colors **
+
+--primary-color : #FDC800;
+--secondary-color:#002147;
+--dark-color:#212529;
+--light-color:#F0F4F9;
+--gray-color:#BDBDBD;
+--cyone-color:#00B2B2;
+
+
+
+
+
+
