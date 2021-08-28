@@ -283,16 +283,26 @@ h6 {
 
 /* coundown Timer */
 
-.countdown-time {
-    display: flex;
-    margin-right: 2rem;
+#countdown {
+    margin-right: 3rem;
+}
+
+#countdown li {
+    display: inline-block;
+    font-size: 0.7em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
     color: #fff;
-    align-items: center;
     text-align: center;
 }
 
-.countdown-time h1 {
+#countdown li span {
+    font-family: var(--prmary-text);
+    display: block;
     font-size: 3rem;
+    color: #fff;
+    font-weight: 600;
 }
 
 
