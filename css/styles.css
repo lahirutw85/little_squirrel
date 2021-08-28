@@ -53,14 +53,43 @@ h6 {
 }
 
 
+/* utilities */
+
+.btn {
+    font-size: 0.85rem;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 0.6rem 1.5rem;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    transition: all 0.5s;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.btn-secondary {
+    background-color: #fff;
+}
+
+
 /* upper navbar */
 
-.nav-address {
+.upper-wrapper {
     background-color: var(--primary-color);
+}
+
+.nav-address {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     height: 50px;
+    max-width: var(--max-width);
+    margin: 0 auto;
 }
 
 .nav-address .nav-address-text {
@@ -80,4 +109,61 @@ h6 {
 .nav-address .social-icons a {
     margin-right: 1rem;
     font-size: 1.2rem;
+}
+
+
+/* navbar */
+
+.navbar-wrapper {
+    background-color: var(--light-color);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 60px;
+    margin-right: 1rem;
+}
+
+.navbar .logo h1 {
+    font-weight: 400;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+}
+
+.nav-content>a {
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+.buttons {
+    margin-left: 2rem;
+}
+
+.buttons a {
+    margin-right: 0.75rem;
+}
+
+.buttons i {
+    background-color: #fff;
+    padding: 0.6rem;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: var(--gray-color);
 }
