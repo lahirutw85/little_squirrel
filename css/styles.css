@@ -603,3 +603,96 @@ h6 {
 .sub-button a {
     margin: 0 0.5rem;
 }
+
+
+/* Footer */
+
+.footer {
+    background-color: var(--secondary-color);
+}
+
+.footer .footer-wrapper {
+    display: flex;
+    padding: 3rem 0;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer-address .logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-address .logo img {
+    width: 60px;
+    margin-right: 1rem;
+}
+
+.footer-address .logo h1 {
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer-address p {
+    margin-right: 2.5rem;
+    font-size: 0.7rem;
+    color: #fff;
+    padding: 0.5rem 0;
+}
+
+.footer-address I {
+    margin-right: 0.7rem;
+}
+
+.footer-menu {
+    display: flex;
+    color: #fff;
+}
+
+.Menu-items {
+    margin: 0 3.5rem;
+    line-height: 1.2rem;
+}
+
+.Menu-items h6 {
+    font-size: 0.9rem;
+}
+
+.Menu-items a {
+    color: #fff;
+    display: block;
+    font-size: 0.8rem;
+    margin: 0.8rem 0;
+}
+
+
+/* copy right */
+
+.coppy-write {
+    background-color: var(--primary-color);
+    max-width: var(--max-width);
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coppy-write p {
+    font-size: 0.8rem;
+    padding: 1rem 1rem;
+}
+
+.coppy-write .social-icons {
+    margin-right: 1rem;
+}
+
+.coppy-write .social-icons i {
+    padding-right: 1rem;
+}
+
+.coppy-write .social-icons i:hover {
+    color: #fff;
+    transition: all 0.9s;
+}
